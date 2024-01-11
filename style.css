@@ -207,7 +207,7 @@ nav:after {
 
 .locality {
   color: #6d6d6d;
-  display: inline-block;
+  display: block;
   width: 25%;
   position: absolute;
   height: 100%;
