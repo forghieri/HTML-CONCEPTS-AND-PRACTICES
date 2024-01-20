@@ -318,3 +318,40 @@ nav:after {
       color: #fff;
 
 }
+
+.p-center{
+  width: 80%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+}
+.title-center{
+  padding: 30px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.status-box{
+      display: inline-block;
+      text-align: center;
+      width: 24.5%;
+      margin-top: 80px;
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+      height: 100px;
+}
+
+.status-box:nth-child(2){
+  border: none;
+}
+.status-box:nth-child(3){
+  border-right: none;
+}
+
+.status-qdt{
+  font-size: 36px;
+}
+.status-text{
+  font-size: 20px;
+}
