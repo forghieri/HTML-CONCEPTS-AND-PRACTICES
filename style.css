@@ -422,3 +422,62 @@ nav:after {
 
   font-weight: bold;
 }
+
+/*blog container*/
+
+#blog-container{
+
+  text-align: center;
+  padding: 5em 0;
+  
+}
+
+#blog-container .p-center{
+  margin-bottom: 60px;
+}
+.article-box{
+    display: inline-block;
+    width: 31%;
+    padding: 0 1%;
+    text-align: left;
+}
+.article-box img{
+    width: 100%;
+    border-radius: 5px;
+    border-bottom: 10px;
+}
+.article-box h4{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.article-box a h4{
+
+  text-decoration: none;
+  color: #666;
+}
+.article-date{
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.article-resume{
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.article-btn{
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: #3381f3;
+      border: 1px solid transparent;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: 0.5s;
+}
+.article-btn:hover{
+    color: #3381f3;
+    background-color: #fff;
+    border: 2px solid #3381f3;
+}
